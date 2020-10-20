@@ -88,7 +88,7 @@ class PhpUnderControl_Example_MathTest extends PHPUnit_Framework_TestCase
      */
     public function testSubFail()
     {
-        sleep(2);
+        sleep(3);
         $this->assertEquals( 0, $this->math->sub( 2, 1 ) );
     }
     
